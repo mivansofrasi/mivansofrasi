@@ -3992,7 +3992,6 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  background-color: gray;
   margin: 0;
 }
 article,
@@ -5624,10 +5623,8 @@ html {
   overflow-x: hidden;
 }
 body {
-  
   height: auto;
   min-height: 100%;
-
 }
 body,
 aside,
@@ -5636,7 +5633,6 @@ section,
 header,
 footer {
   position: relative;
-
 }
 section > *,
 header > *,
@@ -35732,19 +35728,49 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-bottom: 11px;
   }
 }
- .u-footer {
-  background-image: none;
-}
-
 .u-footer .u-sheet-1 {
-  min-height: 122px;
+  min-height: 120px;
 }
 
+.u-footer .u-social-icons-1 {
+  height: 32px;
+  min-height: 16px;
+  width: 158px;
+  min-width: 94px;
+  white-space: nowrap;
+  margin: 44px auto;
+}
 
+.u-footer .u-icon-1 {
+  color: rgb(59, 89, 152) !important;
+}
 
+.u-footer .u-icon-2 {
+  color: rgb(197, 54, 164) !important;
+}
+@media (max-width: 1199px) {
+  .u-footer .u-sheet-1 {
+    min-height: 99px;
+  }
+}
+@media (max-width: 991px) {
+  .u-footer .u-sheet-1 {
+    min-height: 76px;
+  }
+}
+@media (max-width: 767px) {
+  .u-footer .u-sheet-1 {
+    min-height: 57px;
+  }
+}
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 60px;
+    min-height: 36px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    width: 74px;
+    min-width: 42px;
   }
 }
 

@@ -35728,38 +35728,12 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-bottom: 11px;
   }
 }
- .u-footer {
-  background-image: none;
-}
-
 .u-footer .u-sheet-1 {
   min-height: 366px;
-}
-
-.u-footer .u-social-icons-1 {
-  height: 77px;
-  min-height: 16px;
-  width: 163px;
-  min-width: 42px;
-  white-space: nowrap;
-  margin: 160px auto 60px;
-}
-
-.u-footer .u-icon-1 {
-  color: rgb(59, 89, 152) !important;
-}
-
-.u-footer .u-icon-2 {
-  color: rgb(197, 54, 164) !important;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
     min-height: 99px;
-  }
-
-  .u-footer .u-social-icons-1 {
-    width: 158px;
-    min-width: 94px;
   }
 }
 @media (max-width: 991px) {
@@ -35774,13 +35748,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 187px;
-  }
-
-  .u-footer .u-social-icons-1 {
-    width: 163px;
-    min-width: 42px;
-    margin-top: 50px;
+    min-height: 116px;
   }
 }
 

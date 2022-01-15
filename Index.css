@@ -1,10 +1,9 @@
  .u-section-1 {
   background-image: url("images/coverpagemivan-01.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 500px;
+  min-height: 787px;
 }
 
 .u-section-1 .u-btn-1 {
@@ -15,7 +14,7 @@
   letter-spacing: 1px;
   background-image: none;
   box-shadow: 2px -2px 8px 0 rgba(128,128,128,1);
-  margin: 100px auto 0;
+  margin: 279px auto 0;
   padding: 9px 105px 11px;
 }
 
@@ -39,11 +38,15 @@
   letter-spacing: 1px;
   background-image: none;
   box-shadow: 2px -2px 8px 0 rgba(128,128,128,1);
-  margin: 30px auto 0;
+  margin: 30px auto 60px;
   padding: 9px 90px 11px 89px;
 }
 
 @media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 720px;
+  }
+
   .u-section-1 .u-btn-1 {
     align-self: center;
   }
@@ -57,27 +60,29 @@
   }
 }
 
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 700px;
+  }
+}
+
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 510px;
+    min-height: 605px;
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 166px;
     padding-left: 102px;
     padding-right: 102px;
   }
 
   .u-section-1 .u-btn-2 {
-    margin-top: 28px;
     padding-right: 108px;
     padding-left: 107px;
   }
 
   .u-section-1 .u-btn-3 {
     font-size: 1rem;
-    margin-top: 32px;
-    margin-bottom: 60px;
     padding-right: 89px;
   }
 }

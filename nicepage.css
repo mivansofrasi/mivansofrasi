@@ -35728,6 +35728,10 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-bottom: 11px;
   }
 }
+ .u-footer {
+  background-image: none;
+}
+
 .u-footer .u-sheet-1 {
   min-height: 366px;
 }
@@ -35770,14 +35774,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 146px;
+    min-height: 187px;
   }
 
   .u-footer .u-social-icons-1 {
     width: 163px;
     min-width: 42px;
-    margin-top: 29px;
-    margin-bottom: 40px;
+    margin-top: 50px;
   }
 }
 
